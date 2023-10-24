@@ -3,8 +3,7 @@ import interfaces.Carro;
 import principal.CarroRoubado;
 import lombok.Data;
 @Data
-
-class Viatura implements Carro {
+public class Viatura implements Carro {
     private String nomeViatura;
 
     public Viatura(String nomeViatura) {
